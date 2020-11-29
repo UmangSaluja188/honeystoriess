@@ -162,7 +162,7 @@ header.lowerHeader .logo {
     font-size: 2rem;
     line-height: 2.6rem;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     transition: 0.6s;
     display: inline-block;
     margin: 10px 0px;
@@ -340,10 +340,9 @@ header.sticky .logo {
     display: flex;
     justify-content: center;
     margin-bottom: 25px !important;
-    
+
 }
-.product .itemBox{max-width: 322px !important}
-.container-fluid{max-width: 720px !important;}
+
 .ContactLeftContent {
     margin: 0 auto;
 }
@@ -808,6 +807,7 @@ li {
 .icon a {
     color: #2a3b47;
 }
+
 /* banner carousal css */
 .page-carousal .item {
     height: 100vh;
@@ -858,7 +858,7 @@ li {
 }
 
 .page-carousal .item .cover .header-content h1 {
-    font-size: 56px;
+    font-size: 50px;
     font-weight: 600;
     margin: 5px 0 20px;
     word-spacing: 3px;
@@ -977,78 +977,95 @@ li {
     right: 0px;
     opacity: 1;
 }
+
 /* social icons css*/
-.wrapper .button{
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  float: left;
-  margin: 0 5px;
-  overflow: hidden;
-  background: #fff;
-  border-radius: 40px;
-  cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
-  transition: all 0.3s ease-out;
+.wrapper .button {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
 }
-.wrapper .button:hover{
-  width: 200px;
+
+.wrapper .button:hover {
+    width: 200px;
 }
-.wrapper .button .icon{
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  border-radius: 40px;
-  box-sizing: border-box;
-  line-height: 50px;
-  transition: all 0.3s ease-out;
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
 }
-.wrapper .button:nth-child(1):hover .icon{
-  background: #4267B2;
+
+.wrapper .button:nth-child(1):hover .icon {
+    background: #4267B2;
 }
-.wrapper .button:nth-child(2):hover .icon{
-  background: #1DA1F2;
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: #1DA1F2;
 }
-.wrapper .button:nth-child(3):hover .icon{
-  background: #E1306C;
+
+.wrapper .button:nth-child(3):hover .icon {
+    background: #E1306C;
 }
-.wrapper .button:nth-child(4):hover .icon{
-  background: #333;
+
+.wrapper .button:nth-child(4):hover .icon {
+    background: #333;
 }
-.wrapper .button:nth-child(5):hover .icon{
-  background: #ff0000;
+
+.wrapper .button:nth-child(5):hover .icon {
+    background: #ff0000;
 }
-.wrapper .button .icon i{
-  font-size: 18px;
-  line-height: 40px;
-  transition: all 0.3s ease-out;
+
+.wrapper .button .icon i {
+    font-size: 18px;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
 }
-.wrapper .button:hover .icon i{
-  color: #fff;
+
+.wrapper .button:hover .icon i {
+    color: #fff;
 }
-.wrapper .button span{
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 40px;
-  margin-left: 10px;
-  transition: all 0.3s ease-out;
+
+.wrapper .button span {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
 }
-.wrapper .button:nth-child(1) span{
-  color: #4267B2;
+
+.wrapper .button:nth-child(1) span {
+    color: #4267B2;
 }
-.wrapper .button:nth-child(2) span{
-  color: #1DA1F2;
+
+.wrapper .button:nth-child(2) span {
+    color: #1DA1F2;
 }
-.wrapper .button:nth-child(3) span{
-  color: #E1306C;
+
+.wrapper .button:nth-child(3) span {
+    color: #E1306C;
 }
-.wrapper .button:nth-child(4) span{
-  color: #333;
+
+.wrapper .button:nth-child(4) span {
+    color: #333;
 }
-.wrapper .button:nth-child(5) span{
-  color: #ff0000;
+
+.wrapper .button:nth-child(5) span {
+    color: #ff0000;
 }
+
 /* Add Animation */
 @media(max-width: 1199px) {
     .aboutRightContent {
@@ -1058,9 +1075,49 @@ li {
     .slide-container {
         max-width: 450px;
     }
+ .page-carousal .item .cover .header-content .line{border:none !important;}
+   .menu {
+        display: none;
+    }
 
+    .bars {
+        display: block;
+        font-size: 30px;
+        float: right;
+        color: #2a3b47;
+    }
+
+    .hide {
+        display: hidden;
+    }
+
+
+
+    header.newClass {
+        top: 0px !important;
+    }
+
+    .menu ul {
+        float: none !important;
+        display: block !important;
+    }
+
+    .menu ul li {
+        display: block;
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    header.lowerHeader ul li a {
+        margin: 0px !important
+    }
 }
 
+@media only screen and (min-device-width : 992px) and (max-device-width : 1024px) {
+    header.lowerHeader ul li{margin-right:20px; }
+    header.lowerHeader .logo a{letter-spacing: 5px;}
+   
+    }
 @media(max-width: 991px) {
     .slide-container {
         margin: 0 auto 40px;
@@ -1097,7 +1154,10 @@ li {
     .footer-para {
         max-width: 100%;
     }
+    .product .itemBox{max-width: 322px !important}
+.FeatureSlider .container-fluid{max-width: 720px !important;}
 }
+
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 991px) {
     .imageContainer img:nth-child(2) {
@@ -1116,11 +1176,15 @@ li {
         margin: 0px auto;
         padding: 0px 20px;
     }
-    
+
     .page-carousal .item .cover .header-content .line {
         border: none !important;
     }
-    .page-carousal .item .cover .header-content h1{ font-size: 50px !important;}
+
+    .page-carousal .item .cover .header-content h1 {
+        font-size: 50px !important;
+    }
+
     .page-carousal .item .cover .header-content h2 {
         font-size: 26px !important;
     }
@@ -1128,11 +1192,19 @@ li {
     .page-carousal .item .cover .header-content {
         padding: 40px 20px 20px !important;
     }
+
     .aboutRightContent {
-    padding-left: 0px;
-}
-   .page-carousal .item .cover{padding: 75px 0 40px;}
-   .page-carousal .item .cover .header-content h4{padding-bottom: 0px;}
+        padding-left: 0px;
+    }
+
+    .page-carousal .item .cover {
+        padding: 75px 0 40px;
+    }
+
+    .page-carousal .item .cover .header-content h4 {
+        padding-bottom: 0px;
+    }
+
     .outerContainer {
         flex-direction: column-reverse;
     }
@@ -1170,7 +1242,8 @@ li {
     header.newClass {
         top: 0px !important;
     }
-     .menu ul {
+
+    .menu ul {
         float: none !important;
         display: block !important;
     }
@@ -1198,9 +1271,7 @@ li {
         padding: 0px 20px;
     }
 
-    .product .itemBox {
-        height: 500px;
-    }
+   
 
     .page-carousal .item .cover .header-content h1 {
         font-size: 26px !important;
@@ -1293,7 +1364,7 @@ li {
     }
 
     .product .itemBox {
-        max-width: 100%;
+        max-width: 100% !important;
     }
 
     .aboutRightContent {
