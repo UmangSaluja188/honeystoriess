@@ -1111,6 +1111,7 @@ li {
     header.lowerHeader ul li a {
         margin: 0px !important
     }
+    .content h2{font-size:2.5rem;}
 }
 
 @media only screen and (min-device-width : 992px) and (max-device-width : 1024px) {
@@ -1155,7 +1156,7 @@ li {
         max-width: 100%;
     }
     .product .itemBox{max-width: 322px !important}
-.FeatureSlider .container-fluid{max-width: 720px !important;}
+.FeatureSlider .container-fluid{max-width: 650px !important;}
 }
 
 
